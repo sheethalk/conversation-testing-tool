@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: conversation-testing-tool
+  host: conversation-testing-tool
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
